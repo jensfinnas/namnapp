@@ -1,0 +1,40 @@
+body {
+	font-family: Georgia;
+}
+.tab {
+	font-family: Arial;
+	background-color: #004b64;
+	color: white;
+	font-size: 12px;
+	border: 0;
+	padding: 7px;
+}
+.tab:hover {
+	background-color: #006F94;
+}
+.tab.selected {
+	background-color: #042B38;
+	font-weight: bold;
+}
+.tab.selected:hover {
+	background-color: #02384A;
+}
+.tab:after {
+	border-color: transparent transparent transparent #004b64;
+	border-width: 15px;	
+}
+.tab:hover:after {
+	border-color: transparent transparent transparent #006F94;
+	border-width: 15px;
+}
+.tab.selected:after {
+	border-color: transparent transparent transparent #042B38;
+	border-width: 15px;
+}
+.tab.selected:hover:after {
+	border-color: transparent transparent transparent #02384A;
+	border-width: 15px;
+}
+#byline {
+	font-family: Arial;
+}

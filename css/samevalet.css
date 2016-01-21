@@ -1,0 +1,190 @@
+
+body {
+	font-family: Arial;
+	padding: 0;
+	margin: 0;
+}
+#container {
+	width: 590px;
+}
+#candidate_table {
+	width: 100%;
+	font-size: 13px;
+}
+
+/* NAV */
+#nav h2 {
+	font-size: 11px;
+	margin-bottom: 0;
+	margin-top: 5px;
+	margin-right: 8px;
+	text-transform: uppercase;
+}
+#nav h2 span {
+	border-bottom: 3px solid #3d1365;	
+}
+#nav td {
+	vertical-align: top;
+}
+#nav a {
+	font-size: 10px;
+}
+.button {
+	color: #3d1365;
+	display: inline-block;
+	padding: 3px 6px;
+	border: 1px solid rgb(217, 211, 223);
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 3px;
+	font-size: 11px;
+	text-transform: uppercase;
+	background-color: #fff;
+/*	background-color: rgb(217, 211, 223);*/
+	font-weight: bold;
+}
+.button:hover {
+		
+}
+.button .n {
+	font-weight: 400;
+	font-size: 11px;
+}
+.selected {
+	background-color:#3d1365;
+		border: 1px solid #3d1365;
+	color: #fff;
+}
+.filter-list {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+a, a:visited, a:active {
+	color: #3d1365;
+}
+
+/* LIST  */
+/* Sortable headers */
+.sort.button {
+	padding: 2px 0;
+	margin: 5px 0;
+	background-color: #fff;
+	border:0;
+	color: #333;
+	border-bottom: 3px solid rgb(217, 211, 223);
+	border-radius: 0;
+}
+.sort.button.selected {
+	border-bottom: 3px solid #3d1365;	
+}
+.sorticon {
+	float: right;
+}
+.desc .img_asc {
+	display: none;
+}
+.asc .img_desc {
+	display: none;
+}
+.sort.button, .cell {
+	margin-right: 8px;
+}
+.item, #nav_sort {
+	padding: 2px;
+}
+
+/* Items */
+.item {
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.item:hover {
+	background-color: rgb(217, 211, 223);
+	cursor: default;
+}
+
+.item .cell {
+	display:inline-block;
+}
+.name {
+	width: 170px;
+}
+.party {
+	width: 55px;
+}
+.age {
+	width: 60px;
+}
+.kommun {
+	width: 100px;
+}
+.companies {
+	width: 60px;
+}
+.income {
+	width: 85px;
+}
+.hidden {
+	display:none !important; 
+}
+.cell.income, .cell.companies, .cell.age {
+	text-align: right;
+}
+
+
+
+/* ISOTOPE */
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+/* QTIP */
+.qtip ul {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-left: 20px;
+}
